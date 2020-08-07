@@ -707,6 +707,23 @@ const displayConfig = (function() {
 			series: ["PedestalNoise_Width_me-11a", "PedestalNoise_Width_me-11b", "PedestalNoise_Width_me-12", "PedestalNoise_Width_me-13", "PedestalNoise_Width_me-21", "PedestalNoise_Width_me-22", "PedestalNoise_Width_me-31", "PedestalNoise_Width_me-32", "PedestalNoise_Width_me-41", "PedestalNoise_Width_me-42", "PedestalNoise_Width_me+11a", "PedestalNoise_Width_me+11b", "PedestalNoise_Width_me+12", "PedestalNoise_Width_me+13", "PedestalNoise_Width_me+21", "PedestalNoise_Width_me+22", "PedestalNoise_Width_me+31", "PedestalNoise_Width_me+32", "PedestalNoise_Width_me+41", "PedestalNoise_Width_me+42"],
 		},
 
+		{
+			name: "Residual_Width",
+			plot_title: "Residual Width",
+			y_title: "Width of segment - hit residual",
+			subsystem: "GEM",
+			correlation: false,
+			series: ["Residual_Width_ge-11", "Residual_Width_ge-21","Residual_Width_ge+11","Residual_Width_ge+21"],
+		},
+		{
+			name: "PedestalNoise_Width",
+			plot_title: "Pedestal Noise Width",
+			y_title: "Width of pedestal noise",
+			subsystem: "GEM",
+			correlation: false,
+			series: ["PedestalNoise_Width_ge-11", "PedestalNoise_Width_ge-21", "PedestalNoise_Width_ge+11","PedestalNoise_Width_ge+21"],
+		},
+
     ]
     
     return {
